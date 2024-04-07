@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+}
+.navbar {
+  height: 600px;
+  border-radius: 0 0 60% 60%/0 0 100% 100%;
+  transform: scaleX(1.8);
+  background: white;
+  top: -430px;
+  z-index: 1;
+}
+.nav-text {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.hero-section {
+  background-image: url("./assets/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: -30px;
+  opacity: 0.9;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  height: 900px;
+  color: white;
+}
+
+.review-section {
+  background: #fefdfd;
+  border-radius: 60% 60% 0 0 /100% 100% 0 0;
+  transform: scaleX(1.5);
+  z-index: 1;
+  top: -150px;
+}
+.review-content {
+  position: absolute;
+  top: 70px;
+  z-index: 2;
+}
+
+.building {
+  background-image: url("./assets/building.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer {
+  height: 600px;
+  border-radius: 60% 60% 0 0 /100% 100% 0 0;
+  transform: scaleX(1.4);
+  margin-top: -300px;
+}
+
+@media only screen and (max-width: 1320px) {
+  .myContent {
+    margin-top: 1400px;
+  }
+  .footer{
+    height: 700px;
+  }
+}
+
+@media only screen and (max-width: 1120px) {
+  .hero-content {
+    height: 700px;
+  }
+  .navbar {
+    height: 400px;
+    top: -280px;
+  }
+  .review-content {
+    top: 0;
+  }
+}
+@media only screen and (max-width: 920px) {
+  .myContent {
+    margin-top: 1700px;
+  }
+  .footer {
+    transform: scaleX(2);
+    height: 900px;
+  }
+ 
+  .hero-section{
+    margin-top: 80px;
+  }
+}
+@media only screen and (max-width: 780px) {
+  .hero-content {
+    height: 500px;
+    margin-top: 30px;
+  }
+  .navbar {
+    display: none;
+  }
+  .review-content {
+    top: 70px;
+  }
+  .myContent {
+    margin-top: 1750px;
+  }
+  .mobile-img {
+    height: 500px;
+    width: 340px !important;
+  }
+  .footer {
+    transform: scaleX(2.4);
+    height: 1000px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .myContent {
+    margin-top: 2350px;
+  }
+  .footer {
+    height: 1050px;
+  }
+}
