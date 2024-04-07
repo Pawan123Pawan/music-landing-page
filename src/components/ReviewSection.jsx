@@ -64,7 +64,7 @@ const ReviewSection = () => {
                 perferendis molestiae maiores.
               </p>
             </div>
-            <div className="mt-16 flex sm:flex-col md:flex-row gap-5 items-center sm:justify-around z-30 flex-wrap w-4/5 sm:w-full">
+            <div className="mt-16 flex sm:flex-col md:flex-row gap-5 items-center sm:justify-around z-30 flex-wrap w-4/5 mx-auto sm:w-full">
               <div className="border-2 flex flex-col w-[350px] shadow-md items-center px-3 py-10 gap-3 rounded-lg">
                 <div className="text-6xl text-stone-900">
                   <PiLeafFill />
@@ -94,7 +94,7 @@ const ReviewSection = () => {
                   <IoSettingsSharp />
                 </div>
                 <h1 className="text-red-500 text-2xl font-bold tracking-wide">
-                  EASY CUTOMIZE
+                  EASY CUSTOMIZE
                 </h1>
                 <p className="text-lg opacity-80 text-center ">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
